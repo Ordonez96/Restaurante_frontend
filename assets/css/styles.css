@@ -101,8 +101,13 @@ body {
 }
 
 /*Media Querys Responsive para tablets*/
-@media (min-width: 768) and (max-width){
+@media (min-width: 768px) and (max-width:992px){
     .container .header .navbar{
         width: 50vw;
     }
+}
+
+/*Media Querys Responsive para Celular*/
+@media (min-width: 310px) and (max-width:425px){
+    
 }
