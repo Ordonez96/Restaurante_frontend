@@ -99,3 +99,10 @@ body {
 .container .footer h4{
     font-size: 1.1em;
 }
+
+/*Media Querys Responsive para tablets*/
+@media (min-width: 768) and (max-width){
+    .container .header .navbar{
+        width: 50vw;
+    }
+}
