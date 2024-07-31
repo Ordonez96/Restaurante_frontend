@@ -107,7 +107,26 @@ body {
     }
 }
 
-/*Media Querys Responsive para Celular*/
-@media (min-width: 310px) and (max-width:425px){
-    
+/*Media Querys Responsive para Celular L*/
+@media (min-width: 530px) and (max-width:750px){
+    .container .header .navbar{
+        width: 75vw;
+    }
+}
+
+/*Media Querys Responsive para Celular */
+@media (min-width: 310px) and (max-width:529px){
+    .container .header{
+        margin-left: 9vw;
+    }
+
+    .container .header .img-container {
+        margin-left: 21vw;
+    }
+
+    .container .header .navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 3px;
+    }
 }
