@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+body {
+    background-color: #f14807;
+    background-image: url(../img/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+.container .header{
+    text-align: center;
+    height: 20vh;
+}
+/* ---- img logo ----*/
+.container .header .img-container{
+    height: 20vh;
+}
+.container .header .img-logo{
+    height: 15vh;
+}
+
+/* ---- navbar ----*/
+.container .header .navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.container .header .navbar .nav-item{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.container .header .navbar .nav-item:hover{
+    color: #f7733f;
+    font-size: 1.6em;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/*MAIN CONTARINER*/
+.container .main-container{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.container .main-container .main-text-container{
+    color: white;
+    padding-top: 10vh;
+    padding: 4rem;
+}
+
+.container .main-container .main-text-container h1{
+    font-family: "Krub", sans-serif;
+    font-size: 5em;
+    transition: 0.3s;   
+}
+
+.container .main-container .main-text-container h1:hover{
+    text-shadow: 0.05em 0.05em #f7733f;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.container .main-container .main-text-container article{
+    margin: 0 auto;
+    width: 35vw;
+}
+
+.container .main-container .main-text-container p{
+    color: rgb(157,156,156);
+    font-family: "Zain", sans-serif;
+    font-size: 1.1em;
+}
+
+.container .main-container .main-text-container p strong a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.08em 0.08em #f7733f;
+}
+
+.container .footer{
+    color: white;
+    text-align: center;
+}
+
+.container .footer h4{
+    font-size: 1.1em;
+}
