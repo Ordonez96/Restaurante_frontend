@@ -5,6 +5,7 @@ body {
     background-image: url(../img/background-adare-restaurant.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -93,8 +94,8 @@ body {
 
 /*MAP GOOGLE*/
 .container .main-container .map-container .google-map{
-    height: 40vh;
-    width: 80vw;
+    height: 50vh;
+    width: 60vw;
 }
 
 /*FOOTER*/
@@ -150,11 +151,23 @@ body {
         width: 60vw;
     }
 
-    .container .main-container .map-container .google-map{
-        height: 50vh;
-        width: 90vw;
+    .container .main-container .map-container{
+        margin-left:  0.5vw; ;
     }
 
+    .container .main-container .map-container .google-map{
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .container .footer{
+        width: 100vw;
+        margin-left: 11vw;
+    }
+
+    .container .footer h4{
+        font-size: 1.3em;
+    }
 }
 
 
